@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja" data-root="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>製品の機能 | ShohyoDock(証憑ドック)</title>
+<meta name="description" content="ShohyoDockの機能一覧。取り込み、読み取り候補の表示と警告、規則的なファイル名、台帳検索、整合性チェック、提出パック、バックアップ。実際のアプリ画面で紹介します。">
+<meta name="theme-color" content="#0b1f3a">
+<meta name="robots" content="index,follow">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ShohyoDock">
+<meta property="og:title" content="製品の機能 | ShohyoDock(証憑ドック)">
+<meta property="og:description" content="ShohyoDockの機能一覧。取り込み、読み取り候補の表示と警告、規則的なファイル名、台帳検索、整合性チェック、提出パック、バックアップ。実際のアプリ画面で紹介します。">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="assets/img/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ShohyoDockの確認画面">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="製品の機能 | ShohyoDock(証憑ドック)">
+<meta name="twitter:description" content="ShohyoDockの機能一覧。取り込み、読み取り候補の表示と警告、規則的なファイル名、台帳検索、整合性チェック、提出パック、バックアップ。実際のアプリ画面で紹介します。">
+<meta name="twitter:image" content="assets/img/ogp.png">
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<header class="site-header"><div class="wrap">
+<a class="brand" href="index.html"><img src="assets/img/favicon.svg" alt="" width="30" height="30">ShohyoDock<small>証憑ドック</small></a>
+<button class="menu-btn" type="button" aria-label="メニュー" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+<nav class="nav" id="site-nav" aria-label="メイン"><a href="features.html" aria-current="page">機能</a><a href="how-to.html">使い方</a><a href="compare.html">製品版と体験版</a><a href="requirements.html">動作環境</a><a href="faq.html">FAQ</a><a href="notice.html">注意事項</a><a href="support.html">サポート</a><a class="lang" href="en/index.html" hreflang="en" lang="en">English</a></nav>
+</div></header>
+<main id="main">
+<header class="page-head"><div class="wrap"><h1>製品の機能</h1><p>取り込みから確認、検索、保管、提出準備までを一つのアプリで。実際のアプリ画面でご紹介します。</p></div></header>
+<section><div class="wrap"><div class="row"><div class="row-text"><p class="eyebrow">IMPORT</p><h3>まとめて取り込み</h3><p>PDF、画像、テキスト、メール(.eml)をドラッグ&amp;ドロップで取り込みます。フォルダごとの取り込みにも対応。<b>元のファイルは変更しません。</b>同じ内容のファイルは自動で除外します。</p></div><figure class="shot"><div class="shot-frame"><div class="shot-bar"><i></i><i></i><i></i><span>ShohyoDock v1.0.2 RC1</span></div><button type="button" aria-label="画面を拡大して表示"><img src="assets/img/01_home.png" alt="ホーム画面。書類をドラッグ&ドロップする枠と、運用開始のチェックリストが表示されている" width="1320" height="840" loading="lazy" decoding="async"></button></div><figcaption>デモ用の架空帳票を使用した画面です</figcaption></figure></div><div class="row rev"><div class="row-text"><p class="eyebrow">READ</p><h3>読み取り結果を「候補」として表示</h3><p>取引日(西暦・和暦)、金額、取引先、書類の種類、登録番号を読み取り、確度を色で示します。画像からはWindows標準のOCRで候補を表示します(端末内で処理)。</p><p><b>自動では確定しません。</b>原本のプレビューと並べて確認し、Enterで確定します。</p></div><figure class="shot"><div class="shot-frame"><div class="shot-bar"><i></i><i></i><i></i><span>ShohyoDock v1.0.2 RC1</span></div><button type="button" aria-label="画面を拡大して表示"><img src="assets/img/03_inbox_review.png" alt="原本のプレビューと読み取り候補を並べて確認する画面" width="1320" height="840" loading="lazy" decoding="async"></button></div><figcaption>デモ用の架空帳票を使用した画面です</figcaption></figure></div><div class="row"><div class="row-text"><p class="eyebrow">WARN</p><h3>疑わしい読み取りへの警告</h3><p>金額が小計や税額と合わないとき(桁落ちなど)は、疑わしい値を空欄にして、計算から導いた候補を示します。登録番号は形式を確認し、読めなかった項目は「未読」と表示します。</p><p>警告が出ない誤りもあります。確認は必ず行ってください。</p></div><figure class="shot"><div class="shot-frame"><div class="shot-bar"><i></i><i></i><i></i><span>ShohyoDock v1.0.2 RC1</span></div><button type="button" aria-label="画面を拡大して表示"><img src="assets/img/02_inbox_warning.png" alt="金額の警告と候補ボタンが表示された確認待ち画面" width="1320" height="840" loading="lazy" decoding="async"></button></div><figcaption>デモ用の架空帳票を使用した画面です</figcaption></figure></div><div class="row rev"><div class="row-text"><p class="eyebrow">FLOW</p><h3>確認して次へ、をテンポよく</h3><p>確定すると次の書類へ進みます。確度が高い書類を条件つきで一括確定する機能もありますが、確認を省くための機能ではありません。内容は、あとから台帳でも見直せます。</p><p>保管時のファイル名は <code>20261020_12100_ことり文具株式会社_納品書.pdf</code> のような規則的な形になります。</p></div><figure class="shot"><div class="shot-frame"><div class="shot-bar"><i></i><i></i><i></i><span>ShohyoDock v1.0.2 RC1</span></div><button type="button" aria-label="画面を拡大して表示"><img src="assets/img/06_inbox_next.png" alt="確認待ちの次の書類の画面。保存されるファイル名が画面下部に表示されている" width="1320" height="840" loading="lazy" decoding="async"></button></div><figcaption>デモ用の架空帳票を使用した画面です</figcaption></figure></div><div class="row"><div class="row-text"><p class="eyebrow">SEARCH</p><h3>台帳と検索</h3><p>期間、金額の範囲、取引先、書類の種類、全文(本文・メモ・ファイル名)を組み合わせて検索。「今月・先月・今年・昨年」のワンクリック指定や、索引簿のCSV / Excel出力も備えます。一度確定した取引先は学習し、次回から優先して当てはめます。</p></div><figure class="shot"><div class="shot-frame"><div class="shot-bar"><i></i><i></i><i></i><span>ShohyoDock v1.0.2 RC1</span></div><button type="button" aria-label="画面を拡大して表示"><img src="assets/img/04_ledger.png" alt="台帳・検索画面" width="1320" height="840" loading="lazy" decoding="async"></button></div><figcaption>デモ用の架空帳票を使用した画面です</figcaption></figure></div><div class="row rev"><div class="row-text"><p class="eyebrow">KEEP</p><h3>保全と提出</h3><p>保管後のファイル・台帳・履歴の食い違いを確認する<b>整合性チェック</b>、原本・索引簿・ハッシュ一覧・履歴をまとめる<b>提出パック</b>、別ドライブへの<b>コピー</b>、検査つきの<b>復元</b>を備えます。</p><p>整合性チェックは、誤操作や意図しない変更に「気づく」ための機能です。管理者権限を持つ人がデータ全体を作り直した場合は、PC内のチェックでは検出できません。改ざんがないことの証明ではありません。</p></div><figure class="shot"><div class="shot-frame"><div class="shot-bar"><i></i><i></i><i></i><span>ShohyoDock v1.0.2 RC1</span></div><button type="button" aria-label="画面を拡大して表示"><img src="assets/img/05_backup_integrity.png" alt="保全と提出画面" width="1320" height="840" loading="lazy" decoding="async"></button></div><figcaption>デモ用の架空帳票を使用した画面です</figcaption></figure></div></div></section>
+<section class="tint"><div class="wrap">
+<p class="eyebrow">MORE</p><h2>そのほかの機能</h2>
+<div class="grid g3" style="margin-top:32px">
+<div class="card"><h3>訂正・取消の履歴</h3><p>物理削除はせず、変更前後の値・理由・担当者名を履歴に記録します。</p></div>
+<div class="card"><h3>事務処理規程のたたき台</h3><p>国税庁サンプルの構成に沿ったWord文書を作成します。定めて運用するのは利用者です。</p></div>
+<div class="card"><h3>導入ガイドとデモ帳票</h3><p>架空の帳票で、本番の前に一通り練習できます。</p></div>
+<div class="card"><h3>バックアップと復元</h3><p>外付けドライブ等へのコピー、台帳の自動バックアップ、検査つきの復元。</p></div>
+<div class="card"><h3>ソフトに閉じ込めません</h3><p>保管先はただのフォルダです。ファイルと索引簿(CSV)は、ソフトがなくても読めます。</p></div>
+<div class="card"><h3>通信なし</h3><p>書類の内容や利用状況を外部へ送信しません。ライセンス認証もありません。</p></div>
+</div></div></section>
+<section><div class="wrap narrow">
+<div class="callout"><h3>対応していないこと</h3>
+<ul><li>紙の書類のスキャナ保存(紙は紙のまま保存してください)</li><li>会計帳簿の電子保存、会計ソフトとの連携</li><li>タイムスタンプの付与</li><li>メール・クラウドからの自動収集</li><li>複数人での同時利用</li><li>手書き書類の読み取り</li></ul></div>
+<div class="callout warn"><h3>読み取り結果は、必ず人が確認してください</h3><p>ShohyoDockの読み取りは「候補の表示」です。誤ることがあり、自動では確定しません。確定前に必ず原本と見比べてください。</p><p><b>実際の帳票での読み取りの正確さは、まだ検証できていません。</b>製作者が試したのは架空の帳票のみで、実際の帳票より読みやすい可能性があります。精度の数値による保証はできません。お手持ちの帳票で使えるかどうかは、体験版でお確かめください。</p></div>
+</div></section>
+<section class="navy cta-band"><div class="wrap"><h2>まずは体験版で、お手持ちの帳票をお試しください</h2><p class="sec-lead">製品版と同じ機能で、確定できる書類が30件までの体験版です。読めない帳票が多い場合は、購入をおすすめしません。</p><div class="cta-row"><a class="btn btn-primary is-disabled" data-trial data-label="体験版をダウンロード" aria-disabled="true">体験版は準備中</a><a class="btn btn-ghost is-disabled" data-booth data-label="製品版を購入(BOOTH)" aria-disabled="true">販売準備中</a></div><p class="cta-note" data-trial-note>※体験版は現在準備中です。配布の準備ができ次第、こちらからダウンロードできるようになります。</p><p class="cta-note" data-booth-note>※BOOTHの商品ページは準備中です。公開され次第、こちらからご購入いただけます。</p></div></section>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div class="foot-grid">
+<div><a class="brand" href="index.html" style="color:#fff"><img src="assets/img/favicon.svg" alt="" width="30" height="30">ShohyoDock</a><p style="margin-top:14px">Windows向け 電子取引データ整理・保管支援アプリ。<br>主要な処理は端末内で実行します。外部トラッキングは使用していません。</p></div>
+<div><h4>コンテンツ</h4><ul><li><a href="index.html">トップ</a></li><li><a href="features.html">機能</a></li><li><a href="how-to.html">使い方</a></li><li><a href="compare.html">製品版と体験版</a></li><li><a href="requirements.html">動作環境</a></li><li><a href="faq.html">FAQ</a></li><li><a href="notice.html">注意事項</a></li><li><a href="support.html">サポート</a></li></ul></div>
+<div><h4>ご利用にあたって</h4><ul><li><a href="terms.html">利用条件</a></li><li><a href="privacy.html">プライバシーポリシー</a></li></ul></div>
+</div>
+<p class="foot-note">ShohyoDockは電子取引データの整理・検索・保管を支援するソフトです。電子帳簿保存法その他の法令への適合を保証するものではなく、JIIMA認証は受けていません。読み取り結果は必ずご確認ください。個別の判断は税理士または税務署にご確認ください。</p>
+<p class="foot-note" style="border:0;padding-top:0">&copy; ShohyoDock v1.0.2 RC1 公式サイト</p>
+</div></footer>
+<script src="config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
